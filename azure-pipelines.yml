@@ -33,8 +33,8 @@ steps:
     platform: '$(buildPlatform)'
     configuration: '$(buildConfiguration)'
 
--task: DotNetCoreCLI@2
+- task: DotNetCoreCLI@2
   inputs:
     command: test
     projects: '**/AzDevOpsWebApiTest/*.csproj'
-    arguements: '--configuration $(buildConfiguration)'
+    arguments: '--configuration $(buildConfiguration)'
