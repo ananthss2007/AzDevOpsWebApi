@@ -40,5 +40,5 @@ steps:
 - task: DotNetCoreCLI@2
   inputs:
     command: test
-    projects: '**/AzDevOpsWebApiTest/*.csproj'
+    projects: '**/*AzDevOpsWebApiTest/*.csproj'
     arguments: '--configuration $(buildConfiguration)'
