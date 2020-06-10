@@ -42,11 +42,3 @@ steps:
     command: test
     projects: '**/AzDevOpsWebApiTest/*.csproj'
     arguments: '--configuration $(buildConfiguration)'
-
-- task: DotNetCoreCLI@2
-  displayName: 'dotnet publish --configuration $(BuildConfiguration) --output $(Build.ArtifactStagingDirectory)'
-    inputs:
-    command: publish
-    publishWebProjects: false
-    arguments: '--configuration $(BuildConfiguration) --output $(Build.ArtifactStagingDirectory)'
-    zipAfterPublish: True
