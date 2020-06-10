@@ -36,8 +36,4 @@ steps:
   inputs:
     command: test
     projects: '**/*AzDevOpsWebApiTest/*.csproj'
-<<<<<<< HEAD
     arguments: '--configuration $(buildConfiguration)'
-=======
-    arguments: '--configuration $(buildConfiguration)'
->>>>>>> f08bf71fa76432078dfb6e011c5c1edfc154f881
