@@ -17,7 +17,7 @@ namespace AzDevOpsWebApiTest
        {
 
             var returnValue = controller.GetName(1);
-            Assert.Equal("Bracing1", returnValue.ToString());
+            Assert.Equal("Bracing", returnValue.ToString());
         }
 
     }
